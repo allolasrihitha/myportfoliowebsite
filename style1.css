@@ -1,0 +1,157 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.navbar{
+    position:fixed;
+    width:100%;
+    padding: 15px 0;
+    background: black;
+}
+.navbar .main{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.main{
+    max-width: 1300px;
+    padding: 0 0px;
+    margin:auto;
+}
+.navbar .logo a{
+    font-size:1vmax;
+    color:white;
+    font-weight:600;
+}
+.navbar .menu li{
+    list-style: none;
+    display:inline;
+}
+.navbar.sticky{
+    padding: 10px 0;
+    background-color: gray;
+}
+.about{
+    height: 100%;
+    background-color: black;
+    padding-bottom: 300px;
+}
+.navbar .menu li a{
+    padding-left: 1vmax;
+    padding-right: 1vmax;
+    color:white;
+    font-size: 20px;
+    font-weight: 500px;
+    margin-left:25px;
+    text-decoration: none;
+    transition: color 0.9s ease;
+}
+.navbar .menu li a:hover{
+    background-color: crimson;
+    color:black;
+}
+.menu-btn{
+    color:white;
+    cursor:pointer;
+    font-size: 23px;
+    line-height: 5px;
+    display: none;
+}
+.home{
+    color:white;
+    background: url("C:\Users\SRIHITHA\Pictures\Camera Roll\mine.jpg");
+    background-color:black;
+}
+.image{
+    padding-top: 60px;
+    padding-right: 40px;
+    float: right;
+    height:80vh;
+}
+p{
+    color:black;
+    padding-left:100px;
+}
+.home{
+    display:flex;
+    color:white
+}
+.home .main{
+    margin: auto 0 auto 40px;
+    background-color:black;
+}
+.h1{
+    padding-top:4vmax;
+    color:grey;
+    font-size: 40px;
+    font-family: "Times New Roman", Times, serif;
+}
+.h2{
+    padding-top:20px;
+    padding-bottom:20px;
+    color:white;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+}
+h1{
+
+    padding-top:20px;
+    color:white;
+    font-size: 40px;
+    font-family: "Times New Roman", Times, serif;
+}
+.h2 button{
+    background-color: crimson;
+    color:wheat;
+    border-radius: 30px;
+}
+.one{
+    box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #f2f2f2;
+    padding-top: 5vmax;
+    margin: 2vmax 3vmax 3vmax 3vmax;
+    padding-right: 9vmax;
+    padding-left: 0vmax;
+  }
+  .one:hover{
+transform:translateY(-50px);
+    background-color: gainsboro;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-right:9vmax;
+  }
+  .two{
+    box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-left:5%;
+    margin-left: 1vmax;
+    margin-right:1vmax;
+    background-color: #f2f2f2;
+
+    
+  }
+  .two:hover{
+    transform:translateY(100px);
+    background-color: gainsboro;
+    border:2px solid black;
+    border-radius: 20px;
+  }
+  .a:hover{
+    transform:translateY(50px);
+    border-radius: 5px;
+  }
+  #h1:hover{
+    animation: 3s;
+    animation-name: animate;
+  }
+  @keyframes animate{
+    0%{
+        padding-top: 30%;
+    }
+  }
+/*responsive wmedia query*/
+
+
